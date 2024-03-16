@@ -7,8 +7,8 @@ base_url = "https://kaidro.com/nft/journal_nft/"
 output_file = "ids_gaias.txt"
 min_delay = 0  # seconds
 max_delay = 5  # seconds
-start_id = 11999
-end_id = 346706
+start_id = 0
+end_id = 1000
 
 def fetch_nft_data(nft_id):
     url = f"{base_url}{nft_id}.json"
